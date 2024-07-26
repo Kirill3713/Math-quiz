@@ -20,7 +20,7 @@ def generate_quiz(number_of_questions: int = 10) -> None:
         answer = input()
         if check_answer(primer, answer) == True:
             correct_answers += 1
-
+    # Выводим оценку
     if correct_answers == number_of_questions:
         print(green + "Вы отлично справились с тестом! У Вас оценка 5+!👏👏👏")
     elif correct_answers >= number_of_questions * 0.8:
