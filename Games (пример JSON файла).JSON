@@ -1,0 +1,27 @@
+{
+    "games": [
+        {
+            "name": "Sid_Meier`s_Civilization_V",
+            "game_release_date": {
+                "year": 2010,
+                "month": 9,
+                "date": 21
+            },
+            "owner": "Firaxis Games",
+            "collection_of_games": "Civilization",
+            "number_of_game": 5,
+            "free": false
+        },
+        {
+            "name": "Heroes_of_Might_and_Magic",
+            "game_release_date": {
+                "year": 2013,
+                "month": 8,
+                "date": 5
+            },
+            "owner": "Firaxis Games",
+            "collection_of_games": "HMM",
+            "number_of_game": 3
+        }
+    ]
+}
