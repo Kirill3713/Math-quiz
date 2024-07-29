@@ -10,7 +10,8 @@ def generate_math_question(a: int = 1, b: int = 10) -> list:
 
     num1, num2 = random.randint(a, b), random.randint(a, b)
     operator = random.choice(operators)
-
+    if operator == '/':
+        num1 = num2*num1
 
 
     primer = f"{num1} {operator} {num2}"

@@ -1,9 +1,8 @@
 def check_answer(primer: str, answer: int) -> bool:
     """Функция для проверки ответа"""
     try:
-        answer = float()
 
-        if eval(primer) == answer:
+        if eval(primer) == float(answer):
             return True
         else:
             return False
