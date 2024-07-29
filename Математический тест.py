@@ -1,10 +1,10 @@
 import colorama
 from generate_math_question import generate_math_question
 from check_answer import check_answer
-lightgreen = colorama.Fore.LIGHTGREEN_EX
+light_green = colorama.Fore.LIGHTGREEN_EX
 reset = colorama.Fore.RESET
 
-lightwhite = colorama.Fore.LIGHTWHITE_EX
+light_white = colorama.Fore.LIGHTWHITE_EX
 red = colorama.Fore.RED
 green = colorama.Fore.GREEN
 light_yellow = colorama.Fore.LIGHTYELLOW_EX
@@ -13,6 +13,7 @@ light_magenta = colorama.Fore.LIGHTMAGENTA_EX
 def generate_quiz(number_of_questions: int = 10) -> None:
     """Функция для генерации математического теста"""
     correct_answers = 0
+    # Создаем и выводим вопросы для теста
     for i in range(number_of_questions):
 
         primer = generate_math_question()
@@ -34,8 +35,9 @@ def generate_quiz(number_of_questions: int = 10) -> None:
     else:
         print(red + "Поздравляю, Шарик! Ты - болбес! Вы вообще не умеете считать!")
 
-
-print(lightgreen + "Добро пожаловать в математический тест!" + reset)
-print(lightgreen + "Отвечайте на вопросы и Вы получите оценку!" + lightwhite)
+# Приветствие
+print(light_green + "Добро пожаловать в математический тест!" + reset)
+print(light_green + "Отвечайте на вопросы и Вы получите оценку!" + light_white)
+# Вызов функции
 generate_quiz()
 
