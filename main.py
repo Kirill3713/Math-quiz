@@ -1,15 +1,17 @@
 # Импортируем модули и создаем переменные для цветов
+import os
 import colorama
 from generate_math_question import generate_math_question
 from check_answer import check_answer
 light_green = colorama.Fore.LIGHTGREEN_EX
 reset = colorama.Fore.RESET
-
 light_white = colorama.Fore.LIGHTWHITE_EX
 red = colorama.Fore.RED
 green = colorama.Fore.GREEN
 light_yellow = colorama.Fore.LIGHTYELLOW_EX
 light_magenta = colorama.Fore.LIGHTMAGENTA_EX
+# Очистка экрана
+os.system('cls')
 
 def generate_quiz(number_of_questions: int = 10) -> None:
     """
