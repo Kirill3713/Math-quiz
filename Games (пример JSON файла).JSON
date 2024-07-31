@@ -13,13 +13,16 @@
             "free": false
         },
         {
-            "name": "Heroes_of_Might_and_Magic",
+            "name": "Heroes_of_Might_and_Magic_III",
             "game_release_date": {
-                "year": 2013,
-                "month": 8,
-                "date": 5
+                "year": 1999
             },
-            "owner": "Firaxis Games",
+            "owners": [
+                "New World Computing",
+                "Loki Software (Linux)",
+                "The 3DO Company",
+                "Ubisoft"
+            ],
             "collection_of_games": "HMM",
             "number_of_game": 3
         }
