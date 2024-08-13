@@ -1,7 +1,7 @@
 # Импортируем модули
 import random
 
-def generate_math_question(a: int = 1, b: int = 10) -> list:
+def generate_math_question(a: int = 1, b: int = 10) -> str:
     """
     Функция для генерации примера
     """
