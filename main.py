@@ -19,7 +19,7 @@ def generate_quiz(number_of_questions: int = 10) -> None:
     """
     correct_answers = 0
     # Создаем и выводим вопросы для теста
-    for i in range(number_of_questions):
+    for _ in range(number_of_questions):
 
         primer = generate_math_question()
         print(primer, end= " = ")
