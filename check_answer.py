@@ -1,3 +1,4 @@
+# Создаем функцию
 def check_answer(primer: str, answer: int) -> bool:
     """
     Функция для проверки ответа
@@ -11,7 +12,7 @@ def check_answer(primer: str, answer: int) -> bool:
     except ValueError:
         # Создаем исключение на случай неправильного ввода
         print("Введено некорректное значение.")
-
+# Точка входа
 if __name__ == "__main__":
     print(check_answer("2 + 3", 5))
     print(check_answer("5 * 3", 10))

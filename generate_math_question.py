@@ -1,6 +1,6 @@
 # Импортируем модули
 import random
-
+# Создаем функцию
 def generate_math_question(a: int = 1, b: int = 10) -> str:
     """
     Функция для генерации примера
@@ -17,7 +17,7 @@ def generate_math_question(a: int = 1, b: int = 10) -> str:
     primer = f"{num1} {operator} {num2}"
     # Возвращаем пример
     return primer
-
+# Точка входа
 if __name__ == "__main__":
     print(generate_math_question())
     print(generate_math_question(9, 111))

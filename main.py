@@ -10,9 +10,7 @@ red = colorama.Fore.RED
 green = colorama.Fore.GREEN
 light_yellow = colorama.Fore.LIGHTYELLOW_EX
 light_magenta = colorama.Fore.LIGHTMAGENTA_EX
-# Очистка экрана
-os.system('cls')
-
+# Создаем функцию
 def generate_quiz(number_of_questions: int = 10) -> None:
     """
     Функция для генерации математического теста
@@ -39,10 +37,13 @@ def generate_quiz(number_of_questions: int = 10) -> None:
         print(red + "Вы сдали тест на двойку. Подучите - ка устный счет и возвращайтесь на перездачу!" + reset)
     else:
         print(red + "Поздравляю, Шарик! Ты - болбес! Вы вообще не умеете считать!" + reset)
-
-# Приветствие
-print(light_green + "Добро пожаловать в математический тест!" + reset)
-print(light_green + "Отвечайте на вопросы и Вы получите оценку!" + light_white)
-# Вызов функции
-generate_quiz()
-print(green + "Спасибо за прохождение теста!" + reset)
+# Точка входа
+if __name__ == "__main__":
+    # Очистка экрана
+    os.system('cls')
+    # Приветствие
+    print(light_green + "Добро пожаловать в математический тест!" + reset)
+    print(light_green + "Отвечайте на вопросы и Вы получите оценку!" + light_white)
+    # Вызов функции
+    generate_quiz()
+    print(green + "Спасибо за прохождение теста!" + reset)
