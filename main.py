@@ -10,7 +10,7 @@ red = colorama.Fore.RED
 green = colorama.Fore.GREEN
 light_yellow = colorama.Fore.LIGHTYELLOW_EX
 light_magenta = colorama.Fore.LIGHTMAGENTA_EX
-# Создаем функцию
+# Определяем функцию
 def generate_quiz(number_of_questions: int = 10) -> None:
     """
     Функция для генерации математического теста
