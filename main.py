@@ -34,7 +34,7 @@ def generate_quiz(number_of_questions: int = 10) -> None:
     elif correct_answers >= number_of_questions * 0.4:
         print(light_magenta + "Вы сдали тест на оценку 3. Надо улучшить результат)" + reset)
     elif correct_answers >= number_of_questions * 0.2:
-        print(red + "Вы сдали тест на двойку. Подучите - ка устный счет и возвращайтесь на перездачу!" + reset)
+        print(red + "Вы сдали тест на двойку. Подучите-ка устный счет и возвращайтесь на пересдачу!" + reset)
     else:
         print(red + "Поздравляю, Шарик! Ты - болбес! Вы вообще не умеете считать!" + reset)
 # Точка входа
